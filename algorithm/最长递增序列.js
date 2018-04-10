@@ -67,5 +67,5 @@ function removeRepeat(arr) {
 function compare(a, b) {
     return a - b;
 }
-increSequence([1, 2, 3, 4, 8, 6, 12, 13, 14], 1);
+increSequence([1, 2, 3, 4, 8, 6, 12, 13, 14,15,14,13], 1);
 
