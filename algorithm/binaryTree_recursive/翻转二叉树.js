@@ -28,12 +28,5 @@ var invertTree = function(root) {
         node.left = temp;
         
     }
-    // (function _(node){
-    //     if(node){
-    //         stack.push(node);
-    //     }else return;
-    //     arguments.callee(node.left);
-    //     arguments.callee(node.right);
-    // })(root);
     return root;
 };

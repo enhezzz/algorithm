@@ -22,3 +22,5 @@ function mergeSort(arr){
     return result.concat(a).concat(b);
 }
 console.log(mergeSort([3,5,15,78,13,64,7]))
+
+// O(n log n)
